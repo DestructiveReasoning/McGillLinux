@@ -1,4 +1,4 @@
-URxvt*geometry: 110x30
+URxvt*geometry: 100x24
 URxvt*depth: 32
 URxvt*background: [84]#000000
 URxvt*foreground: #bed6ff
@@ -16,7 +16,7 @@ xterm*foreground: #99aaee
 xterm*color12: #444477
 xterm*color4: #9999ff
 xterm*scrollbar: false
-xterm*faceName: Tamsyn:size=16:antialias=true
+xterm*faceName: xft:Inconsolata:size=14
 !xterm*faceName: terminus:size=13:antialias=true
 xterm*font: 80x30
 xterm*termName: xterm-256color

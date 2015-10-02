@@ -13,3 +13,5 @@ cp ~/McGillLinux/wiltz.vim ~/.vim/colors/wiltz.vim
 mkdir ~/.savant
 cp ~/McGillLinux/constants ~/.savant/constants
 cp ~/McGillLinux/savant/logo ~/.savant/logo
+
+xrdb -merge ~/.Xdefaults
