@@ -2,6 +2,7 @@ dir="~/McGillLinux/"
 
 cp -R ~/McGillLinux/savant ~/
 cp ~/McGillLinux/.vimrc ~/.vimrc
+touch ~/.bashrc
 cp ~/McGillLinux/.bashrc ~/.bashrc
 cp ~/McGillLinux/.Xdefaults ~/.Xdefaults
 
