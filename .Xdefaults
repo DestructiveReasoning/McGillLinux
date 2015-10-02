@@ -9,7 +9,7 @@ URxvt*font: xft:Inconsolata:size=14
 !URxvt*font: xft:nexus-font:size=18
 URxvt*letterSpace: -1
 
-xterm*geometry: 100x24
+xterm*geometry: 100x30
 xterm*background: #060607
 !xterm*foreground: #bbbbee
 xterm*foreground: #99aaee
