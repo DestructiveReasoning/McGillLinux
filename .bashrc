@@ -7,7 +7,7 @@ alias savant='~/McGillLinux/savant/a.out'
 #color_blue='\e[0;34m'
 #color_cyan='\e[0;36m'
 #color_reset='\e[0m'
-#export PS1="┌─[$color_blue\u$color_reset][$color_cyan\W$color_reset]\n└─▪ "
+export PS1="┌─[$color_blue\u$color_reset][$color_cyan\W$color_reset]\n└─>▪"
 
 alias batterystatus='acpi'
 alias showtime='tty-clock -s -c'
