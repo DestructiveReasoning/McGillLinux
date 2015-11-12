@@ -18,7 +18,16 @@ runtime! archlinux.vim
 "set encoding=utf-8
 "set list listchars=tab:\>\ ,eol:-
 
-set t_Co=256 
+"PATHOGEN
+filetype off
+call pathogen#infect()
+call pathogen#helptags()
+
+"NERDTree
+let g:NERDTreeDirArrow = 1
+let g:NERDTreeDirArrowExpandable = '>'
+let g:NERDTreeDirArrowCollapsible = '_'
+
 "STATUSLINE
 let g:mode = 0
 colorscheme wiltz
