@@ -19,14 +19,6 @@ runtime! archlinux.vim
 "set list listchars=tab:\>\ ,eol:-
 
 "PATHOGEN
-filetype off
-call pathogen#infect()
-call pathogen#helptags()
-
-"NERDTree
-let g:NERDTreeDirArrow = 1
-let g:NERDTreeDirArrowExpandable = '>'
-let g:NERDTreeDirArrowCollapsible = '_'
 
 "STATUSLINE
 let g:mode = 0
@@ -111,9 +103,6 @@ function! Unwrap()
 	set linebreak!
 	set nolist!
 endfunc
-
-"Simple Shortcuts
-nmap <C-S-N> :NERDTreeToggle<CR>
 
 "Format block
 nmap <F1> =i}
