@@ -3,6 +3,7 @@
 alias ls='ls --color=auto'
 alias grep='grep -n --color=auto'
 alias savant='~/McGillLinux/savant/a.out'
+alias gtfo='xrdb -merge .Xdefaults && exit'
 
 #color_blue='\e[0;34m'
 #color_cyan='\e[0;36m'
